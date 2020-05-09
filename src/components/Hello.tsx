@@ -9,7 +9,7 @@ interface IHelloProps {
 // }
 
 
-const Hello: React.FC<IHelloProps> = (props: IHelloProps) => {
+const Hello: React.FC<IHelloProps> = (props) => {
         return <h2>{props.message}</h2>
-    }
+}
 export default Hello
